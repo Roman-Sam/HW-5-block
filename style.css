@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*main container*/
+.main{
+    font-family: "Lato", sans-serif;
+}
+/*container section*/
+.section {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: #ED4C5C;
+    
+}
+    /*section text*/
+        .section-text {
+    position: absolute;
+    width: 445px;
+    height: 195px;
+    left: 165px;
+    top: 122px;
+    }
+        .section h1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    }
+        .section p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    }
+    /*section download*/
+        .download span {
+    position: relative;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+    vertical-align: middle;
+    }
+    /*section slider*/
+        .slider span {
+        position: absolute;
+        width: 533px;
+        height: 311px;
+        left: 691px;
+        top: 94px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+        .slider1 {
+            position: relative;
+            width: 383px;
+            height: 267px;
+            top: 22px;
+            left: 220px;
+            opacity: 0.5;
+            border-radius: 15px;
+    }
+        .slider2 {
+            position: relative;
+            width: 383px;
+            height: 267px;
+            top: 22px;
+            opacity: 0.5;
+            border-radius: 15px;
+
+    }
+        .slider3 {
+            position: relative;
+            width: 445px;
+            height: 311px;
+            left: 80px;
+            border-radius: 15px;
+
+    }
+/*container contact*/
+.contact {
+    position: relative;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background: #FFFFFF;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+        .contact-text {
+        display: flow-root;
+        position: relative;
+        width: 445px;
+        height: 160px;
+    }
+        .contact-text h1 {
+        position: relative;
+        left: 176px;
+        top: 110px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 43px;
+        color: #000000;
+    }
+        .contact-text p {
+        position: relative;
+        left: 176px;
+        top: 133px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: justify;
+        color: #000000;
+    }
+        .contact-form {
+        position: relative;
+        width: 540px;
+        height: 305px;
+        left: 735px;
+        top: -43px;
+        display: inline-block;
+    }
+        .input1 {
+        position: relative;
+        width: 155px;
+        height: 30px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 30px;
+        font-family: "Lato";
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        margin-right: 25px;
+    }
+        .input2 {
+        position: relative;
+        width: 155px;
+        height: 30px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 30px;
+        font-family: "Lato";
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+        .input3 {
+        position: relative;
+        width: 340px;
+        height: 30px;
+        color: rgba(19, 39, 67, 0.5);
+        padding-left: 30px;
+        font-family: "Lato";
+        border: 1px solid #333333;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+        .select {
+        position: relative;
+        width: 340px;
+        height: 30px;
+        padding-left: 25px;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        line-height: 19px;
+        color: rgba(28, 28, 29, 0.618);
+        margin-bottom: 20px;
+    }
+        .button1 {
+        position: relative;
+        width: 155px;
+        height: 30px;
+
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #ED4C5C;
+        border: 1.5px solid #ED4C5C;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+/*container footer*/
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+    display: inline-block;
+    vertical-align: top;
+}
+        .footer div {
+    display: inline-block;
+    vertical-align: top;
+    }
+        .address {
+    position: relative;
+    width: 259px;
+    height: 264px;
+    left: 161px;
+    }
+            h2 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #101010;
+        padding-bottom: 40px;
+        }
+            p {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #101010;
+            }
+        .visibility1 {
+    position: relative;
+    width: 20px;
+    height: 160px;
+    left: 161px;
+    visibility: hidden;
+        }
+        .services {
+    position: relative;
+    width: 154px;
+    height: auto;
+    left: 250px;
+    }
+            li {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #000000;
+        }
+        .touch {
+        position: relative;
+        width: 140px;
+        height:auto;
+        left: 334px;
+    }
+            .touch p, div {
+            margin-bottom: 10px;
+        }
+        .we {
+    position: relative;
+    width: 140px;
+    height: 22px;
+    left: 422px;
+    }
