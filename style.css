@@ -109,18 +109,18 @@
         .contact-text h1 {
         position: relative;
         left: 176px;
-        top: 110px;
+        top: 130px;
         font-family: "Lato";
         font-style: normal;
         font-weight: 600;
-        font-size: 26px;
+        font-size: 36px;
         line-height: 43px;
         color: #000000;
     }
         .contact-text p {
         position: relative;
         left: 176px;
-        top: 133px;
+        top: 163px;
         font-family: "Lato";
         font-style: normal;
         font-weight: normal;
@@ -139,8 +139,8 @@
     }
         .input1 {
         position: relative;
-        width: 155px;
-        height: 30px;
+        width: 255px;
+        height: 60px;
         color: rgba(19, 39, 67, 0.5);
         padding-left: 30px;
         font-family: "Lato";
@@ -152,8 +152,8 @@
     }
         .input2 {
         position: relative;
-        width: 155px;
-        height: 30px;
+        width: 255px;
+        height: 60px;
         color: rgba(19, 39, 67, 0.5);
         padding-left: 30px;
         font-family: "Lato";
@@ -164,8 +164,8 @@
     }
         .input3 {
         position: relative;
-        width: 340px;
-        height: 30px;
+        width: 540px;
+        height: 60px;
         color: rgba(19, 39, 67, 0.5);
         padding-left: 30px;
         font-family: "Lato";
@@ -176,8 +176,8 @@
     }
         .select {
         position: relative;
-        width: 340px;
-        height: 30px;
+        width: 540px;
+        height: 60px;
         padding-left: 25px;
         border: 1px solid #333333;
         border-radius: 6px;
@@ -186,12 +186,12 @@
         font-weight: normal;
         line-height: 19px;
         color: rgba(28, 28, 29, 0.618);
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
         .button1 {
         position: relative;
-        width: 155px;
-        height: 30px;
+        width: 160px;
+        height: 50px;
 
         font-family: "Lato";
         font-style: normal;
@@ -215,10 +215,12 @@
     background: #FAFAFA;
     display: inline-block;
     vertical-align: top;
+    
 }
         .footer div {
     display: inline-block;
     vertical-align: top;
+    margin-top: 45px;
     }
         .address {
     position: relative;
@@ -264,6 +266,7 @@
         line-height: 160%;
         text-transform: capitalize;
         color: #000000;
+        list-style: none;
         }
         .touch {
         position: relative;
